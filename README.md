@@ -3,7 +3,7 @@
 A modern enterprise-style contact sales page inspired by ElevenLabs.
 
 ## Preview
-![Preview](./preview.png)
+![Preview](./Preview.png)
 
 ## Features
 - Two-column enterprise layout
