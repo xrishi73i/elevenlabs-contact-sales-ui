@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    display:flex;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    
+    flex:1;
+    background-color: rgb(32, 26, 26);
+    min-height: 100vh;
+}
+.rightSide{
+    display:flex;
+    flex:1;
+    background-color: rgb(250, 241, 229);
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.elevenLabs{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+}
+h3{
+    color: rgb(225, 228, 231);
+}
+.contactColor{
+    color: rgb(225, 228, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact{
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+.custom{
+    color: rgb(211, 217, 223);
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.enterprise{
+    color: rgb(211, 217, 223);
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.support{
+   color: rgb(211, 217, 223);
+    margin-left: 60px;
+    margin-bottom: 200px;
+}
+.g3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.trust{
+    color: rgb(196, 183, 167);
+    margin-left: 45px;
+    margin-bottom:40px;
+}
+.img{
+    color: antiquewhite;
+    margin-bottom:15px;
+}
+.star{
+    color:rgb(219, 210, 197);
+    margin-left: 160px;
+}
+.r1contact{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:250px;
+}
+.rcontact{
+    display: flex;
+    flex-direction: column;
+    height :500px;
+    width: 50vw;
+}
+.fill{
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+.companyWeb{
+    padding-bottom:30px;
+}
+.type2{
+  width: 460px;          
+  height: 40px;          
+  padding: 0 14px;       
+  font-size: 15px;       
+  border-radius: 10px;   
+  border: 1px solid #999;
+  outline: none;
+  margin-top:15px;
+}
+.bussiness{
+    
+}
+.buttonC{
+  margin-top:40px;
+  width: 80px;          
+  height: 40px;          
+  padding: 0 14px;       
+  font-size: 18px; 
+  background-color: rgb(94, 80, 80);
+  border-radius: 22px;   
+  border: 1px solid #999;
+  outline: none;
+  color: aliceblue;
+  margin-right: 172px;
+
+}
+
+.next{
+    display: flex;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 58px;
+}
+.line1{
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    border-radius: 22px;  
+    padding: 0 14px; 
+    margin-right: 8px;
+}
+.line2{
+    height: 5px;
+    width: 50px;
+    background-color: rgb(216, 208, 208);
+    border-radius: 22px;  
+    padding: 0 14px; 
+    margin-right: 8px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .button {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .line {
+    justify-content: center;
+  }
+}
